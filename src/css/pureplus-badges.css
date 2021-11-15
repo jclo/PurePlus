@@ -1,0 +1,60 @@
+/*
+ * -- PUREPLUS BADGES STYLE --
+ * (colored badges with rounded corners)
+ *
+ */
+
+/*
+ * -- SHAPE STYLE --
+ */
+.pureplus-badge {
+  display: inline-block;
+  font-size: 75%;
+  font-weight: 700;
+  line-height: 1;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  padding: .25em .4em;
+  border-radius: .25rem;
+}
+
+
+
+/*
+ * -- COLOR STYLE --
+ */
+.pureplus-badge {
+  color: rgba(0, 0, 0, 0.8);
+  background-color: #e6e6e6
+}
+
+.pureplus-badge-primary {
+  color: #fff;
+  background-color: #0078e7
+}
+
+.pureplus-badge-info {
+  color: #fff;
+  background-color: rgb(91, 192, 222)
+}
+.pureplus-badge-success {
+  color: #fff;
+  background-color: rgb(28, 184, 65)
+}
+.pureplus-badge-warning {
+  color: #fff;
+  background-color: rgb(223, 117, 20)
+}
+.pureplus-badge-error {
+  color: #fff;
+  background-color: rgb(202, 60, 60)
+}
+.pureplus-badge-dark {
+  color: #fff;
+  background-color: black
+}
+
+
+
+/* oOo */

@@ -1,0 +1,45 @@
+/*
+ * -- PUREPLUS GLOBAL STYLE --
+ *
+ */
+
+/* CSS Fluid Image Techniques for Responsive Site Design */
+/* (all images are responsive!) */
+img { max-width: 100%; height: auto; }
+
+
+/* Main tags */
+a {
+  text-decoration: none
+}
+a:hover {
+  text-decoration: underline
+}
+
+
+/* Code highlighting */
+code {
+  font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
+  padding: 2px 4px;
+  white-space: nowrap;
+  border-radius: 0.25rem
+}
+
+
+/*
+ * -- COLOR STYLE --
+ */
+a {
+  color: #428bca
+}
+a:hover {
+  color: #428bca
+}
+
+code {
+  color: #c7254e;
+  background-color: #f9f2f4
+}
+
+
+/* oOo */

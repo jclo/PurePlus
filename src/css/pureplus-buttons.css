@@ -1,0 +1,67 @@
+/*
+ * -- PUREPLUS BUTTONS STYLE --
+ * (colored buttons with rounded corners)
+ *
+ */
+
+/*
+ * -- SHAPE STYLE --
+ */
+.pure-button:hover {
+  text-decoration: none
+}
+
+.pureplus-button-info,
+.pureplus-button-success,
+.pureplus-button-warning,
+.pureplus-button-error {
+  padding: 0.7em 1.5em;
+  border-radius: .25rem
+}
+
+.pureplus-button-xsmall {
+  font-size: 70%
+}
+.pureplus-button-small {
+  font-size: 85%
+}
+.pureplus-button-large {
+  font-size: 110%
+}
+.pureplus-button-xlarge {
+  font-size: 125%
+}
+
+
+
+/*
+ * -- COLOR STYLE --
+ */
+.pure-button:hover {
+  color: white
+}
+
+.pureplus-button-info,
+.pureplus-button-success,
+.pureplus-button-warning,
+.pureplus-button-error {
+  color: white;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2)
+}
+
+.pureplus-button-info {
+  background: rgb(91, 192, 222)
+}
+.pureplus-button-success {
+  background: rgb(28, 184, 65)
+}
+.pureplus-button-warning {
+  background: rgb(223, 117, 20)
+}
+.pureplus-button-error {
+  background: rgb(202, 60, 60)
+}
+
+
+
+/* oOo */

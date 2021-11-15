@@ -1,0 +1,91 @@
+/*! ****************************************************************************
+ * PurePlus v0.90.0
+ *
+ * Extends Yahoo's PureCSS library.
+ * (you can download it from npm or github repositories)
+ * Copyright (c) 2021 Mobilabs <contact@mobilabs.fr> (http://www.mobilabs.fr).
+ * Released under the MIT license. You may obtain a copy of the License
+ * at: http://www.opensource.org/licenses/mit-license.php).
+ * Built from ES6lib v1.0.12.
+ * ************************************************************************** */
+img{max-width:100%;height:auto}
+a{text-decoration:none}
+a:hover{text-decoration:underline}
+code{font-family:Menlo,Monaco,Consolas,"Courier New",monospace;padding:2px 4px;white-space:nowrap;border-radius:.25rem}
+a{color:#428bca}
+a:hover{color:#428bca}
+code{color:#c7254e;background-color:#f9f2f4}
+.pure-button:hover{text-decoration:none}
+.pureplus-button-error,.pureplus-button-info,.pureplus-button-success,.pureplus-button-warning{padding:.7em 1.5em;border-radius:.25rem}
+.pureplus-button-xsmall{font-size:70%}
+.pureplus-button-small{font-size:85%}
+.pureplus-button-large{font-size:110%}
+.pureplus-button-xlarge{font-size:125%}
+.pure-button:hover{color:#fff}
+.pureplus-button-error,.pureplus-button-info,.pureplus-button-success,.pureplus-button-warning{color:#fff;text-shadow:0 1px 1px rgba(0,0,0,.2)}
+.pureplus-button-info{background:#5bc0de}
+.pureplus-button-success{background:#1cb841}
+.pureplus-button-warning{background:#df7514}
+.pureplus-button-error{background:#ca3c3c}
+.pureplus-badge{display:inline-block;font-size:75%;font-weight:700;line-height:1;text-align:center;white-space:nowrap;vertical-align:baseline;padding:.25em .4em;border-radius:.25rem}
+.pureplus-badge{color:rgba(0,0,0,.8);background-color:#e6e6e6}
+.pureplus-badge-primary{color:#fff;background-color:#0078e7}
+.pureplus-badge-info{color:#fff;background-color:#5bc0de}
+.pureplus-badge-success{color:#fff;background-color:#1cb841}
+.pureplus-badge-warning{color:#fff;background-color:#df7514}
+.pureplus-badge-error{color:#fff;background-color:#ca3c3c}
+.pureplus-badge-dark{color:#fff;background-color:#000}
+.pureplus-alert{padding:15px;margin-bottom:20px;border:1px solid transparent;border-radius:.25rem}
+.pureplus-alert-info{color:#31708f;background-color:#d9edf7;border-color:#bce8f1}
+.pureplus-alert-success{color:#3c763d;background-color:#dff0d8;border-color:#d6e9c6}
+.pureplus-alert-warning{color:#8a6d3b;background-color:#fcf8e3;border-color:#faebcc}
+.pureplus-alert-error{color:#a94442;background-color:#f2dede;border-color:#ebccd1}
+.pureplus-callout{margin:20px 0;padding:15px}
+.pureplus-callout h3{margin-top:0;margin-bottom:5px}
+.pureplus-callout p:last-child{margin-bottom:0}
+.pureplus-callout .highlight,.pureplus-callout code{border-radius:.25rem}
+.pureplus-callout{border-left:3px solid #eee}
+.pureplus-callout .highlight,.pureplus-callout code{background-color:#fff}
+.pureplus-callout-info{background-color:#f4f8fa;border-color:#5bc0de}
+.pureplus-callout-warning{background-color:#fcf8f2;border-color:#f0ad4e}
+.pureplus-callout-error{background-color:#fdf7f7;border-color:#ad1f23}
+.pureplus-callout-info h3{color:#5bc0de}
+.pureplus-callout-warning h3{color:#f0ad4e}
+.pureplus-callout-error h3{color:#ad1f23}
+.pureplus-shadow{box-shadow:none}
+.pureplus-shadow-animate{-webkit-transition:all .5s ease-out;-moz-transition:all .5s ease-out;-ms-transition:all .5s ease-out;-o-transition:all .5s ease-out;transition:all .5s ease-out}
+.pureplus-shadow-animate.z0z1{box-shadow:none}
+.pureplus-shadow-animate.z0z2{box-shadow:none}
+.pureplus-shadow-animate.z0z3{box-shadow:none}
+.pureplus-shadow-animate.z0z4{box-shadow:none}
+.pureplus-shadow-animate.z0z5{box-shadow:none}
+.pureplus-shadow.z1{box-shadow:0 1px 2px 0 rgba(0,0,0,.37)}
+.pureplus-shadow.z2{box-shadow:0 2px 2px 0 rgba(0,0,0,.2),0 6px 10px 0 rgba(0,0,0,.3)}
+.pureplus-shadow.z3{box-shadow:0 11px 7px 0 rgba(0,0,0,.19),0 13px 25px 0 rgba(0,0,0,.3)}
+.pureplus-shadow.z4{box-shadow:0 14px 12px 0 rgba(0,0,0,.17),0 20px 40px 0 rgba(0,0,0,.3)}
+.pureplus-shadow.z5{box-shadow:0 17px 17px 0 rgba(0,0,0,.15),0 27px 55px 0 rgba(0,0,0,.3)}
+.pureplus-shadow-animate.z0z1:hover{box-shadow:0 1px 2px 0 rgba(0,0,0,.37)}
+.pureplus-shadow-animate.z0z2:hover{box-shadow:0 2px 2px 0 rgba(0,0,0,.2),0 6px 10px 0 rgba(0,0,0,.3)}
+.pureplus-shadow-animate.z0z3:hover{box-shadow:0 11px 7px 0 rgba(0,0,0,.19),0 13px 25px 0 rgba(0,0,0,.3)}
+.pureplus-shadow-animate.z0z4:hover{box-shadow:0 14px 12px 0 rgba(0,0,0,.17),0 20px 40px 0 rgba(0,0,0,.3)}
+.pureplus-shadow-animate.z0z5:hover{box-shadow:0 17px 17px 0 rgba(0,0,0,.15),0 27px 55px 0 rgba(0,0,0,.3)}
+.pureplus-shadow-animate.z1z2{box-shadow:0 1px 2px 0 rgba(0,0,0,.37)}
+.pureplus-shadow-animate.z1z2:hover{box-shadow:0 2px 2px 0 rgba(0,0,0,.2),0 6px 10px 0 rgba(0,0,0,.3)}
+.pureplus-shadow-animate.z1z3{box-shadow:0 1px 2px 0 rgba(0,0,0,.37)}
+.pureplus-shadow-animate.z1z3:hover{box-shadow:0 11px 7px 0 rgba(0,0,0,.19),0 13px 25px 0 rgba(0,0,0,.3)}
+.pureplus-shadow-animate.z1z4{box-shadow:0 1px 2px 0 rgba(0,0,0,.37)}
+.pureplus-shadow-animate.z1z4:hover{box-shadow:0 14px 12px 0 rgba(0,0,0,.17),0 20px 40px 0 rgba(0,0,0,.3)}
+.pureplus-shadow-animate.z1z5{box-shadow:0 1px 2px 0 rgba(0,0,0,.37)}
+.pureplus-shadow-animate.z1z5:hover{box-shadow:0 17px 17px 0 rgba(0,0,0,.15),0 27px 55px 0 rgba(0,0,0,.3)}
+.pureplus-shadow-animate.z2z3{box-shadow:0 2px 2px 0 rgba(0,0,0,.2),0 6px 10px 0 rgba(0,0,0,.3)}
+.pureplus-shadow-animate.z2z3:hover{box-shadow:0 11px 7px 0 rgba(0,0,0,.19),0 13px 25px 0 rgba(0,0,0,.3)}
+.pureplus-shadow-animate.z2z4{box-shadow:0 2px 2px 0 rgba(0,0,0,.2),0 6px 10px 0 rgba(0,0,0,.3)}
+.pureplus-shadow-animate.z2z4:hover{box-shadow:0 14px 12px 0 rgba(0,0,0,.17),0 20px 40px 0 rgba(0,0,0,.3)}
+.pureplus-shadow-animate.z2z5{box-shadow:0 2px 2px 0 rgba(0,0,0,.2),0 6px 10px 0 rgba(0,0,0,.3)}
+.pureplus-shadow-animate.z2z5:hover{box-shadow:0 17px 17px 0 rgba(0,0,0,.15),0 27px 55px 0 rgba(0,0,0,.3)}
+.pureplus-shadow-animate.z3z4{box-shadow:0 11px 7px 0 rgba(0,0,0,.19),0 13px 25px 0 rgba(0,0,0,.3)}
+.pureplus-shadow-animate.z3z4:hover{box-shadow:0 14px 12px 0 rgba(0,0,0,.17),0 20px 40px 0 rgba(0,0,0,.3)}
+.pureplus-shadow-animate.z3z5{box-shadow:0 11px 7px 0 rgba(0,0,0,.19),0 13px 25px 0 rgba(0,0,0,.3)}
+.pureplus-shadow-animate.z3z5:hover{box-shadow:0 17px 17px 0 rgba(0,0,0,.15),0 27px 55px 0 rgba(0,0,0,.3)}
+.pureplus-shadow-animate.z4z5{box-shadow:0 14px 12px 0 rgba(0,0,0,.17),0 20px 40px 0 rgba(0,0,0,.3)}
+.pureplus-shadow-animate.z4z5:hover{box-shadow:0 17px 17px 0 rgba(0,0,0,.15),0 27px 55px 0 rgba(0,0,0,.3)}
