@@ -35,5 +35,5 @@ http://localhost:8888/test/visual/index-dev.html
 
 [npm-url]: https://www.npmjs.com/package/@mobilabs/pureplus
 [release-url]: https://github.com/jclo/pureplus/tags
-[commit-url]: https://github.com/jclo/pureplus/commits/master
+[commit-url]: https://github.com/jclo/pureplus/commits/main
 [license-url]: http://opensource.org/licenses/MIT

@@ -21,8 +21,8 @@ const filesToWatch = ['src/**/*.css']
 
 
 // -- Gulp Private Tasks
-const build       = require('./tasks/build')
-    , makedist    = require('./tasks/makedist')
+const build    = require('./tasks/build')
+    , makedist = require('./tasks/makedist')
     ;
 
 
