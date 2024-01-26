@@ -1,6 +1,6 @@
 {
   "name": "@mobilabs/pureplus",
-  "version": "0.90.1",
+  "version": "0.91.0",
   "description": "Extends Yahoo's PureCSS library",
   "main": "",
   "bin": {},

@@ -35,7 +35,7 @@ http://localhost:8080/
 [release-image]: https://img.shields.io/github/release/jclo/pureplus.svg?include_prereleases
 [commit-image]: https://img.shields.io/github/last-commit/jclo/pureplus.svg?logo=github
 [ci-image]: https://github.com/jclo/pureplus/actions/workflows/ci.yml/badge.svg
-[coveralls-image]: https://img.shields.io/coveralls/jclo/pureplus/master.svg?&logo=coveralls
+[coveralls-image]: https://img.shields.io/coveralls/jclo/pureplus/main.svg?&logo=coveralls
 [npm-bundle-size-image]: https://img.shields.io/bundlephobia/minzip/@mobilabs/pureplus.svg
 [license-image]: https://img.shields.io/npm/l/@mobilabs/pureplus.svg
 
@@ -43,6 +43,6 @@ http://localhost:8080/
 [release-url]: https://github.com/jclo/pureplus/tags
 [commit-url]: https://github.com/jclo/pureplus/commits/master
 [ci-url]: https://github.com/jclo/pureplus/actions/workflows/ci.yml
-[coveralls-url]: https://coveralls.io/github/jclo/pureplus?branch=master
+[coveralls-url]: https://coveralls.io/github/jclo/pureplus?branch=main
 [npm-bundle-size-url]: https://img.shields.io/bundlephobia/minzip/@mobilabs/pureplus
 [license-url]: http://opensource.org/licenses/MIT

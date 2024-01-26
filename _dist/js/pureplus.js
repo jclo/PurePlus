@@ -1,5 +1,5 @@
 /*! ****************************************************************************
- * PurePlus v0.90.1
+ * PurePlus v0.91.0
  *
  * Extends Yahoo's PureCSS library.
  * (you can download it from npm or github repositories)
@@ -101,7 +101,7 @@
 
       // Useful to retrieve the library name and version when it is
       // embedded in another library as an object:
-      _library: { name: 'PurePlus', version: '0.90.1' },
+      _library: { name: 'PurePlus', version: '0.91.0' },
 
 
       // -- Private Static Methods ---------------------------------------------
@@ -160,7 +160,7 @@
 
     // Attaches constants to ES6lib that provide name and version of the lib.
     PurePlus.NAME = 'PurePlus';
-    PurePlus.VERSION = '0.90.1';
+    PurePlus.VERSION = '0.91.0';
 
     // END OF IIFE
   }());

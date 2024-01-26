@@ -1,12 +1,12 @@
 ### HEAD
 
 
-### 0.90.x (January 26, 2024)
+### 0.91.0 (January 26, 2024)
 
   * Updated the project with @mobilabs/es6kadoo v2.1 (no Gulp, Github Actions),
   * Reworked callout,
   * Updated the url of the coveralls badge in the README.md file,
-  * ...,
+  * Release.
 
 
 ### 0.90.1 (January 26, 2022)
