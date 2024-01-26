@@ -5,6 +5,7 @@
 
   * Updated the project with @mobilabs/es6kadoo v2.1 (no Gulp, Github Actions),
   * Reworked callout,
+  * Updated the url of the coveralls badge in the README.md file,
   * ...,
 
 
