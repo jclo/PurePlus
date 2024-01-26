@@ -33,15 +33,28 @@ code{color:#c7254e;background-color:#f9f2f4}
 .pureplus-callout{margin:20px 0;padding:15px}
 .pureplus-callout h3{margin-top:0;margin-bottom:5px}
 .pureplus-callout p:last-child{margin-bottom:0}
-.pureplus-callout .highlight,.pureplus-callout code{border-radius:.25rem}
-.pureplus-callout{border-left:3px solid #eee}
-.pureplus-callout .highlight,.pureplus-callout code{background-color:#fff}
-.pureplus-callout-info{background-color:#f4f8fa;border-color:#5bc0de}
-.pureplus-callout-warning{background-color:#fcf8f2;border-color:#f0ad4e}
-.pureplus-callout-error{background-color:#fdf7f7;border-color:#ad1f23}
-.pureplus-callout-info h3{color:#5bc0de}
-.pureplus-callout-warning h3{color:#f0ad4e}
-.pureplus-callout-error h3{color:#ad1f23}
+.pureplus-callout-note>div{position:relative;font-size:1.2em;font-variant:small-caps;color:inherit;padding-left:1.5em}
+.pureplus-callout-note>div::before{position:absolute;top:2px;left:0;content:'';width:1.2em;height:1.2em;background-size:cover;background-image:url('../img/note.svg')}
+.pureplus-callout-note-dark>div::before{background-image:url('../img/callout-icons/note-dark.svg')}
+.pureplus-callout-info>div{position:relative;font-size:1.2em;font-variant:small-caps;padding-left:1.5em}
+.pureplus-callout-info>div::before{position:absolute;top:2px;left:0;content:'';width:1.2em;height:1.2em;background-size:cover;background-image:url('../img/info.svg')}
+.pureplus-callout-success>div{position:relative;font-size:1.2em;font-variant:small-caps;padding-left:1.5em}
+.pureplus-callout-success>div::before{position:absolute;top:2px;left:0;content:'';width:1.2em;height:1.2em;background-size:cover;background-image:url('../img/success.svg')}
+.pureplus-callout-warning>div{position:relative;font-size:1.2em;font-variant:small-caps;padding-left:1.5em}
+.pureplus-callout-warning>div::before{position:absolute;top:2px;left:0;content:'';width:1.2em;height:1.2em;background-size:cover;background-image:url('../img/warning.svg')}
+.pureplus-callout-error>div{position:relative;font-size:1.2em;font-variant:small-caps;padding-left:1.5em}
+.pureplus-callout-error>div::before{position:absolute;top:2px;left:0;content:'';width:1.2em;height:1.2em;background-size:cover;background-image:url('../img/error.svg')}
+:root{--pps-callout-note-color:#eee;--pps-callout-note-border-color:#eee;--pps-callout-note-background-color:#fff;--pps-callout-info-color:rgb(32, 156, 238);--pps-callout-info-border-color:rgb(32, 156, 238);--pps-callout-info-background-color:rgba(32, 156, 238, 0.15);--pps-callout-success-color:rgb(72, 199, 116);--pps-callout-success-border-color:rgb(72, 199, 116);--pps-callout-success-background-color:rgba(72, 199, 116, 0.15);--pps-callout-warning-color:rgb(240, 173, 78);--pps-callout-warning-border-color:rgb(240, 173, 78);--pps-callout-warning-background-color:rgba(240, 173, 78, 0.15);--pps-callout-error-color:rgb(173, 31, 35);--pps-callout-error-border-color:rgb(173, 31, 35);--pps-callout-error-background-color:rgba(173, 31, 35, 0.15)}
+.pureplus-callout{border-left:5px solid #eee}
+.pureplus-callout-note{background-color:var(--pps-callout-note-background-color);border-color:var(--pps-callout-note-border-color)}
+.pureplus-callout-info{background-color:var(--pps-callout-info-background-color);border-color:var(--pps-callout-info-border-color)}
+.pureplus-callout-info>div{color:var(--pps-callout-info-color)}
+.pureplus-callout-success{background-color:var(--pps-callout-success-background-color);border-color:var(--pps-callout-success-border-color)}
+.pureplus-callout-success>div{color:var(--pps-callout-success-color)}
+.pureplus-callout-warning{background-color:var(--pps-callout-warning-background-color);border-color:var(--pps-callout-warning-border-color)}
+.pureplus-callout-warning>div{color:var(--pps-callout-warning-color)}
+.pureplus-callout-error{background-color:var(--pps-callout-error-background-color);border-color:var(--pps-callout-error-border-color)}
+.pureplus-callout-error>div{color:var(--pps-callout-error-color)}
 .pureplus-shadow{box-shadow:none}
 .pureplus-shadow-animate{-webkit-transition:all .5s ease-out;-moz-transition:all .5s ease-out;-ms-transition:all .5s ease-out;-o-transition:all .5s ease-out;transition:all .5s ease-out}
 .pureplus-shadow-animate.z0z1{box-shadow:none}

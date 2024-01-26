@@ -1,0 +1,4 @@
+  // Returns the library name:
+  return PurePlus;
+}));
+{{lib:es6:export}}

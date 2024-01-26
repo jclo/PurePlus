@@ -1,5 +1,13 @@
 ### HEAD
 
+
+### 0.90.x (January 26, 2024)
+
+  * Updated the project with @mobilabs/es6kadoo v2.1 (no Gulp, Github Actions),
+  * Reworked callout,
+  * ...,
+
+
 ### 0.90.1 (January 26, 2022)
 
   * Updated the project dependencies,
